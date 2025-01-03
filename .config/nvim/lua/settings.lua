@@ -27,10 +27,12 @@ vim.cmd('colorscheme gruvbox')
 
 vim.g.startify_custom_header = ""
 
-
+--[==[
+-- Open NERDTree on open
 vim.api.nvim_exec([[
   autocmd VimEnter * NERDTree | wincmd p
 ]], false)
+--]==]
 
 vim.api.nvim_exec([[
   autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
