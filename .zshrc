@@ -37,6 +37,11 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 
 #
+# Keyboard Setting
+#
+bindkey -e
+
+#
 # Aliases
 #
 (( $+commands[eza] )) && alias ls='eza --icons=auto'
