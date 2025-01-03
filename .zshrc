@@ -59,6 +59,13 @@ if (( $+commands[brew] )); then
 fi
 
 #
+# Other
+#
+if (( $+commands[bat] )); then
+    export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+    export MANROFFOPT="-c"
+fi
+#
 # Tool Initialization
 #
 if (( $+commands[fzf] )); then
