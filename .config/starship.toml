@@ -12,6 +12,7 @@ read_only = " 󰌾"
 
 [docker_context]
 symbol = " "
+detect_files = ['compose.yml', 'compose.yaml', 'docker-compose.yml', 'docker-compose.yaml', 'Dockerfile']
 
 [dotnet]
 format = "[$symbol(🎯 $tfm )]($style)"
