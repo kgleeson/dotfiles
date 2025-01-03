@@ -65,6 +65,9 @@ if (( $+commands[bat] )); then
     export MANPAGER="sh -c 'col -bx | bat -l man -p'"
     export MANROFFOPT="-c"
 fi
+if (( $+commands[nvim] )); then
+    export EDITOR=nvim
+fi
 #
 # Tool Initialization
 #
