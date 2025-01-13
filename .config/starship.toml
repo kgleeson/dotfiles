@@ -1,5 +1,6 @@
 [aws]
 symbol = "  "
+disabled = true
 
 [c]
 symbol = " "
@@ -109,6 +110,7 @@ format = 'via [$symbol]($style)'
 [ruby]
 symbol = " "
 format = 'via [$symbol]($style)'
+detect_variables = []
 
 [rust]
 symbol = "󱘗 "
