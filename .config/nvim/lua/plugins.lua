@@ -15,9 +15,11 @@ Plug('neoclide/coc.nvim', {['branch'] = 'release'})
 Plug('junegunn/fzf', { ['do'] = function()
     vim.fn['fzf#install']()
 end })
-Plug('vim-airline/vim-airline')
 Plug('NeogitOrg/neogit')
 Plug('nvim-lua/plenary.nvim')
 Plug('navarasu/onedark.nvim')
+Plug('nvim-lualine/lualine.nvim')
+Plug('nvim-tree/nvim-web-devicons')
+
 
 vim.call('plug#end')
