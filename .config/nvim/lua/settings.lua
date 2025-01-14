@@ -17,13 +17,17 @@ vim.opt.number = true
 
 vim.opt.mouse = a
 
-vim.opt.clipboard = unnamedplus
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.ttyfast = true
 
 vim.opt.background = "dark"
 
-vim.cmd('colorscheme gruvbox')
+-- vim.cmd('colorscheme gruvbox')
+require('onedark').setup {
+    style = 'darker'
+}
+require('onedark').load()
 
 vim.g.startify_custom_header = ""
 

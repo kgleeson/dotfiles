@@ -18,5 +18,6 @@ end })
 Plug('vim-airline/vim-airline')
 Plug('NeogitOrg/neogit')
 Plug('nvim-lua/plenary.nvim')
+Plug('navarasu/onedark.nvim')
 
 vim.call('plug#end')
