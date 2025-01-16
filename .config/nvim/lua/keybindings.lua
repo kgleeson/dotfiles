@@ -47,3 +47,8 @@ nmap('<A-h>', '<A-W>H')
 nmap('<A-j>', '<A-W>J')
 nmap('<A-k>', '<A-W>K')
 nmap('<A-h>', '<A-W>H')
+
+
+-- which-key
+nmap('<leader>?', '<cmd>WhichKey<cr>')
+

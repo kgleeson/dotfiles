@@ -15,8 +15,10 @@ vim.opt.autoindent = true
 
 vim.opt.number = true
 
-vim.opt.mouse = a
+-- Enable mouse
+vim.opt.mouse = 'a'
 
+-- Use System clipboard
 vim.opt.clipboard = "unnamedplus"
 
 vim.opt.ttyfast = true
