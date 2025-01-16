@@ -1,3 +1,6 @@
 [submodule ".zsh_addons/fzf-tab"]
 	path = .zsh_addons/fzf-tab
 	url = https://github.com/Aloxaf/fzf-tab.git
+[submodule ".config/yazi/flavors/onedark.yazi"]
+	path = .config/yazi/flavors/onedark.yazi
+	url = https://github.com/BennyOe/onedark.yazi.git
