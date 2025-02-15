@@ -48,6 +48,7 @@ bindkey -e
 (( $+commands[eza] )) && alias ls='eza --icons=auto'
 (( $+commands[bat] )) && alias cat=bat
 (( $+commands[nvim] )) && alias vim=nvim
+(( $+commands[docker] )) && alias dc='docker compose'
 alias scp='rsync -avzh --progress -e ssh'
 
 
